@@ -1,5 +1,6 @@
-<%@ page contentType="text/html; charset=iso-8859-1" %>
+<%-- <%@ page contentType="text/html; charset=iso-8859-1" %> --%>
 <%@ page import="java.util.Date" %>
+<%@ page contentType= "text/html; charset=utf-8"%>
 <%
 	Date now = new Date();
 %>
