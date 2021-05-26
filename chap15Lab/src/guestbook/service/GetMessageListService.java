@@ -20,9 +20,9 @@ public class GetMessageListService {
 	private GetMessageListService() {
 	}
 
-	private static final int MESSAGE_COUNT_PER_PAGE = 3;
+	private static final int MESSAGE_COUNT_PER_PAGE = 3; //한페이지당 나오는 글 갯수
 
-	public MessageListView getMessageList(int pageNumber) {
+	public MessageListView getMessageList(int pageNumber) { //해당 페이지를 갖고오게 하는 코딩
 		Connection conn = null;
 		int currentPageNumber = pageNumber;
 		try {
